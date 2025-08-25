@@ -9,8 +9,6 @@ O objetivo é criar um **formulário de cadastro de parceiros comerciais** com:
 - Persistência em banco de dados **MySQL** via procedure
 - Feedback visual ao usuário (erros e sucesso)
 
----
-
 ## 🚀 Tecnologias utilizadas
 
 - [React](https://reactjs.org/)
@@ -20,7 +18,35 @@ O objetivo é criar um **formulário de cadastro de parceiros comerciais** com:
 - [Shadcn UI](https://ui.shadcn.com/)
 - [Lovable.dev](https://lovable.dev/) (para prototipação)
 
----
-
 ## 📂 Estrutura do projeto
 
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+├── src
+│ ├── main.tsx
+│ ├── App.tsx
+│ ├── components
+│ │ ├── FormParceiro.tsx # formulário principal
+│ │ └── ...outros componentes
+│ └── styles
+│ └── index.css
+
+## ⚙️ Como rodar o projeto
+
+### 1. Pré-requisitos
+- [Node.js](https://nodejs.org/) (versão 18 ou 20)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+Verifique se está instalado:
+```bash
+node -v
+npm -v
+
+Instalar dependências
+npm install
+
+Rodar em ambiente de desenvolvimento
+npm run dev
